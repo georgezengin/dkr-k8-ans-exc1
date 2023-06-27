@@ -4,12 +4,12 @@ app = Flask(__name__)
 @app.route('/welcome', methods=['GET'])
 def getstudents():
     if request.method == 'GET':
-        return '<h1> hodi say\'s hi</h1>'
+        return '<h1> hodi says hi</h1>'
 
 @app.route('/gz', methods=['GET'])
 def getstudentsgz():
     if request.method == 'GET':
-        return '<h1> george say\'s hi</h1>'
+        return '<h1> george says hi</h1>'
 
 @app.route('/')
 def getstudentsroot():
